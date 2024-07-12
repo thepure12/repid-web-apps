@@ -69,6 +69,13 @@ const links = [
             icon: 'i-heroicons-link',
             to: "https://vercel.com",
         },
+    ],
+    [
+    {
+            label: "Repo",
+            icon: 'i-heroicons-link',
+            to: "https://github.com/thepure12/repid-web-apps",
+        },
     ]
 ]
 </script>

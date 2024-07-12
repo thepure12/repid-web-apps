@@ -2,7 +2,7 @@
 const hello: any = ref("")
 
 async function fetchHello() {
-  const { data } = await useFetch('/api/hello')
+  const { data, error } = await useFetch('/api/hello')
   hello.value = data.value;
 }
 </script>
