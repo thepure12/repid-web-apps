@@ -13,6 +13,9 @@ const links = [{
 }, {
   label: 'Friends',
   to: '/friends'
+}, {
+  label: 'Links',
+  to: '/links'
 }]
 </script>
 
